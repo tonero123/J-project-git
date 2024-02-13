@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <form class="signup">
+      <!-- title -->
+      <div class="title"><img src="./Artboard 40@1 2.png" alt=""><h4>sign up</h4></div>
+
+      <!-- questionaire -->
+      <div class="container">
+        <label for="signup-text">first name</label><br>
+        <input type="text" class="form-input"><br>
+
+        <!-- questionaire -->
+        <label for="signup-text">last name</label><br>
+        <input type="text" class="form-input"><br>
+
+        <!-- questionaire -->
+        <label for="signup-text">email</label><br>
+        <i class="fa fa-user"></i><input type="text" class="form-input" 
+        placeholder="onaloanthony123.com"><br>
+
+        <!-- questionaire -->
+        <label for="signup-text">create password</label><br>
+        <div class="create-pass-lock"><i class="fas fa-lock"></i></div><input type="password" class="form-input" placeholder=""><div class="create-eye-slash"><i class='far fa-eye-slash'></i></div><br>
+
+        <!-- questionaire -->
+        <label for="signup-text">re-enter password</label><br>
+        <div class="re-enter-lock"><i class="fas fa-lock"></i></div><input type="password" class="form-input" placeholder=""><div class="re-enter-eyeslash"><i class='far fa-eye-slash'></i></div>
+        <br>
+        <label>
+          <input type="checkbox" checked="checked" class="remember"> Remember me
+        </label>
+
+          <!-- button -->  
+      <button type="button" class="btn signup-btn">sign up <span class="arrow-head">&#8594</span> 
+      </button>
+      <article>Already have an account?<span class="signin-text"> sign in</span>
+      </article>
+    </div>
+    </form>
+  </body>
+</html>

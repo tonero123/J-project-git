@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Event</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- material font-awesome -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+        <!-- CREATE EVENT PAGE -->
+      <form class="settings-page">
+        <div class="creat-head">
+        <header class="event-header">create event</header>
+        <div class="head-icon-x">
+          <i class="material-icons">add</i>
+        </div>
+        </div>
+        <main class="overall-settings">
+
+          <!-- FIRST SIDE -->
+        <section class="settings-center">
+          <!-- questionaire -->
+          <label for="settings-name">
+            first name
+          </label>
+          <div class="settings-input">
+            <input type="text" class="settings-firstname" placeholder="eg. medov">
+          </div>
+          <!-- end of questionaire -->
+          <!-- questionaire -->
+          <div class="sett-date-container">
+            <!-- second row questionaire -->
+          <div class="sett-prize">
+          <label for="settings-name">
+            date
+          </label>
+          <div class="settings-input">
+            <input type="text" class="settings-date" placeholder="">
+          </div>
+          </div>
+          <!-- end of second row questionaire -->
+          <!-- second row questionaire -->
+          <div class="sett-prize">
+            <label for="settings-name">
+              time
+            </label>
+            <div class="settings-input">
+              <input type="text" class="settings-time" placeholder="4:00pm"><i class="fa fa-chevron-down"></i>  to
+            </div>
+            </div>
+            <!-- end of second row questionaire -->
+            
+            <!-- second row questionaire -->
+          <div class="sett-prize">
+            <label for="settings-name">
+              time
+            </label>
+            <div class="settings-input">
+              <input type="text" class="settings-time" placeholder="5:00pm"><i class="fa fa-chevron-down"></i>
+            </div>
+            </div>
+            <!-- end of second row questionaire -->
+          </div>
+          <!-- end of questionaire -->
+
+          <!-- questionaire -->
+          <div class="sett-prize">
+          <label for="settings-name">
+            repeat
+          </label>
+          <div class="settings-input-two">
+            <input type="text" class="settings-repeat" placeholder="none"><i class="fa fa-chevron-down"></i>
+          </div>
+          </div>
+          <!-- end of questionaire -->
+          <!-- questionaire -->
+          <div class="sett-prize">
+          <label for="settings-name">
+            event details
+          </label>
+          <div class="settings-input">
+            <input type="text" class="settings-event-details">
+          </div>
+          </div>
+          <!-- end of questionaire -->
+        </section>
+        <!-- END OF FIRST SIDE -->
+
+        <!-- SECOND SIDE -->
+        <section class="settings-center">
+          <!-- questionaire -->
+          <label for="settings-name">
+            hosts
+          </label>
+          <div class="settings-input-tree">
+            <input type="text" class="settings-firstname" placeholder="search for members"><i class="fa fa-chevron-down"></i>
+          </div>
+          <!-- end of questionaire -->
+          <!-- questionaire -->
+          <div class="settings-name">
+            <div class="setting-loca">
+            event location
+            </div>
+            <input type="radio" checked="checked">
+            <label for="">online</label>
+            <input type="radio" class="settings-in-person"> 
+            <label for="">in-person</label>
+          <div class="settings-input">
+            <input type="text" class="settings-firstname" placeholder="address">
+          </div>
+          </div>
+          <!-- end of questionaire -->
+
+          <!-- questionaire -->
+          <div class="sett-prize">
+          <label for="settings-name">
+            price
+          </label>
+          <div class="settings-input">
+            <input type="text" class="settings-prize" placeholder="free">
+          </div>
+          </div>
+          <!-- end of questionaire -->
+          <!-- questionaire -->
+          <div class="camera-sec">
+            <div class="cam-sett-icon">
+              <i class="material-icons" style="font-size: 62px;">add_a_photo</i>
+            </div>
+        </div>
+          <!-- end of questionaire -->
+        </section>
+        <!-- END OF SECOND SIDE -->
+      </main>
+      <!-- BOTTOM PAGE -->
+      <div class="settings-bottom-btn">
+      <button type="button" class="sett-btn">
+        Create
+      </button>
+      </div>
+      </form>
+  </body>
+</html>

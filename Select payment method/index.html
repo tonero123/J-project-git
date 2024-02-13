@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select payment method</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- material font-awesome -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main class="account-details">
+      <section class="account-header">
+        <div class="account-title">
+          <h5>Add funds</h5>
+        </div>
+        <div class="acc-title-icon">
+          <i class="material-icons fa-fw">add</i>
+        </div>
+      </section>
+
+      <div class="general-payment">
+
+      <div class="account-details-cent">
+        <h5>Select Amount (N)</h5>
+        <div class="bank-input">
+          <input type="text" placeholder="40,000" class="acc-access-inp">
+        </div>
+      </div>
+
+        <!-- single payment -->
+        <section class="payment-info">
+          <div class="paypal-ico">
+            <i class="fab fa-paypal" style="font-size: 36px;"></i>
+          </div>
+          <article class="paypal-text">
+            Continue with PayPal
+          </article>
+        </section>
+        <!-- end of single payment -->
+        <!-- single payment -->
+        <section class="payment-info">
+          <div class="paypal-ico">
+            <i class="fa fa-credit-card" style="font-size:36px;color: red;"></i>
+          </div>
+          <article class="paypal-text">
+            Continue with Paystack
+          </article>
+        </section>
+        <!-- end of single payment -->
+        <!-- single payment -->
+        <section class="payment-info">
+          <div class="paypal-ico">
+            <i class="fa fa-credit-card" style="font-size:36px;color: red;"></i>
+          </div>
+          <article class="paypal-text">
+            Continue with Paystack
+          </article>
+        </section>
+        <!-- end of single payment -->
+      </div>
+    </main>
+  </body>
+</html>
